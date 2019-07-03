@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoFinalMTI</string>
+    <string name="tab_text_1">Eventos</string>
+    <string name="tab_text_2">Productos</string>
+    <string name="tab_text_3">Mapa</string>
+    <string name="google_maps_key">APIKEY</string>
+
+</resources>

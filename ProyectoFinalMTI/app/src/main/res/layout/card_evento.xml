@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                   android:layout_height="wrap_content" android:layout_margin="10dp"
+                                   app:cardElevation="10dp" app:cardCornerRadius="8dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="10dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" android:gravity="center_horizontal">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp" app:srcCompat="@drawable/ev_arrolladora"
+                        android:id="@+id/imgEvento" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+                        android:scaleType="centerCrop"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_marginTop="10dp">
+            <TextView
+                    android:text="LA ARROLLADORA BANDA EL LIMÓN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/txtNombre" android:textStyle="bold"
+                    android:paddingLeft="5dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp" app:srcCompat="@drawable/ic_event_black_24dp"
+                />
+                <TextView
+                        android:text="Viernes 05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/txtFecha"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp" app:srcCompat="@drawable/ic_query_builder_black_24dp"
+                />
+                <TextView
+                        android:text="21:00 hrs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/txtHora"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

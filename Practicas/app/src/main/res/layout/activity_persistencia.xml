@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.desarroyo.PracticaEjemplo.PersistenciaActivity" android:layout_margin="20dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtTexto" android:hint="Ingrese texto aquí"/>
+    <Button
+            android:text="Guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnGuardar"/>
+    <Button
+            android:text="Mostrar Dato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnMostrar"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/lblDato" android:textSize="24sp"/>
+    <Button
+            android:text="Abrir Nueva Pantalla y Enviar Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnNuevaVentana"/>
+</LinearLayout>
